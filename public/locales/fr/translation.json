@@ -1,0 +1,14 @@
+{
+    "home": "Acceuil",
+    "contact": "Contact",
+    "about": "A propos",
+    "page": {
+        "welcome": {
+            "home": "Bienvenue dans la page d'acceuil",
+            "contact": "Bienvenue dans la page de contact"
+        }
+     },
+     "parag": {
+         "description": "via la création de composants dépendant d'un état et générant une page (ou portion) HTML à chaque changement d'état."
+     }
+}

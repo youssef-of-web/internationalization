@@ -1,0 +1,14 @@
+{
+  "home": "Home",
+  "contact": "Contact",
+  "about": "About",
+  "page": {
+     "welcome": {
+         "home": "welcome to home page",
+         "contact": "welcome to contact page"
+     }
+  },
+  "parag": {
+    "description": "so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality."
+}
+}
