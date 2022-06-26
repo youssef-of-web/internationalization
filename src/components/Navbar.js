@@ -8,14 +8,14 @@ function Navbar() {
     i18n.changeLanguage(e.target.value)
   }
 
-  useEffect(()=>{
+/*   useEffect(()=>{
     for (let index = 0; index < document.getElementsByClassName('lang').length; index++) {
       const element = document.getElementsByClassName('lang')[index];
       if(element.value === i18n.language){
         element.setAttribute("selected", "true")
       }
     }
-  }, [])
+  }, []) */
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
