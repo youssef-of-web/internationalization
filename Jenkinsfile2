@@ -28,7 +28,7 @@ pipeline {
            steps {
                 script {
                
-                   dir("/var") {
+                   dir("/") {
                         sh "ls -la"
                     }
                    
