@@ -24,6 +24,15 @@ pipeline {
                 }
            }
         }
+         stage ("copy to var") {
+           steps {
+                script {
+               
+                   sh 'cd /var/www && mkdir hello'
+                   
+                }
+           }
+        }       
 
     }
 }
