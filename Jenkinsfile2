@@ -1,0 +1,12 @@
+pipeline {
+    stages {
+        stage ("install & build") {
+           steps {
+             nodejs('NodeJs_Builder') {
+                sh "npm i"
+                sh "npm run build"
+              }
+           }
+        }
+    }
+}
