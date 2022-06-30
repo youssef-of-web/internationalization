@@ -1,10 +1,16 @@
 pipeline {
     agent any
     stages {
-        stage ("install & build") {
+        stage ("install") {
            steps {
              nodejs('NodeJs_Builder') {
                 sh "npm i"
+              }
+           }
+        }
+        stage ("build") {
+           steps {
+             nodejs('NodeJs_Builder') {
                 sh "npm run build"
               }
            }
