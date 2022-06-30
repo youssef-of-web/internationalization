@@ -19,7 +19,7 @@ pipeline {
            steps {
                 script {
                
-                   sh 'tar czf internatinalization.tar.gz /build'
+                   sh 'tar czf internatinalization.tar.gz build'
                    
                 }
            }
