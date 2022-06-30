@@ -28,7 +28,9 @@ pipeline {
            steps {
                 script {
                
-                   sh 'cd /var/www && mkdir hello'
+                   dir("/var") {
+                        sh "ls -la"
+                    }
                    
                 }
            }
