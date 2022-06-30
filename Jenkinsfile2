@@ -15,5 +15,15 @@ pipeline {
               }
            }
         }
+        stage ("compress") {
+           steps {
+                script {
+               
+                   sh 'tar czf internatinalization.tar.gz ./'
+                   
+                }
+           }
+        }
+
     }
 }
